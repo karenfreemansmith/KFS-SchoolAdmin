@@ -1,0 +1,42 @@
+body {
+  font-size: 1em;
+  background-color: #ccc;
+  color: #000;
+  margin: 0;
+}
+nav {
+  background-color: #999;
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  width: 15%;
+  text-align: center;
+  background-color: #333;
+}
+li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 2em;
+}
+section {
+  background-color: #666;
+  color: #fff;
+  padding: 5em 5%;
+}
+h1, h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+  font-style: italic;
+}
