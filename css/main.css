@@ -26,17 +26,18 @@ li a {
   font-size: 2em;
 }
 section {
-  background-color: #666;
-  color: #fff;
+  background-color: #1f1f60;
+  color: #ffd633;
   padding: 5em 5%;
 }
 h1, h2 {
   text-align: center;
+  font-family: 'Cinzel', serif;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 5em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 3em;
   font-style: italic;
 }
