@@ -1,16 +1,20 @@
 body {
   font-size: 1em;
-  background-color: #ccc;
-  color: #000;
-  margin: 0;
+  background-color: #fff;
+  color: #333;
+  padding: 50px 0;
 }
+
 nav {
-  background-color: #999;
+  background-color: #ffd633;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;;
 }
 li {
   display: inline-block;
@@ -18,17 +22,32 @@ li {
   padding: 5px;
   width: 15%;
   text-align: center;
-  background-color: #333;
+  background-color: #1f1f60;
 }
 li a {
-  color: #ccc;
+  color: #ffd633;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.2em;
 }
-section {
+.container {
+
+}
+.right {
+  float: right;
+  width: 420px;
+  height: 300px;
+  margin: 3px 5px;
+}
+.left {
+  float: left;
+  width: 420px;
+  height: 300px;
+  margin: 3px 5px;
+}
+.headline {
   background-color: #1f1f60;
   color: #ffd633;
-  padding: 5em 5%;
+  padding: 8em 5%;
 }
 h1, h2 {
   text-align: center;
@@ -40,4 +59,23 @@ h1 {
 h2 {
   font-size: 3em;
   font-style: italic;
+}
+
+.info {
+  padding: 5%;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 75;
+  height: 65px;
+  width: 100%;
+  text-align: right;
+  padding: 5px;
+  background-color: #ffd633;
 }
